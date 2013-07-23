@@ -23,13 +23,12 @@ public class EscuelaDaoTest extends BaseTest{
 		Assert.notNull(escuelaDao);
 	}
 	
-	@Ignore
 	@Test
 	public void crearNuevaEscuela(){
 		
 		EscuelaDomain escuela = new EscuelaDomain();
 		
-		escuela.setIdEscuela(2);
+//		escuela.setIdEscuela(2);
 		escuela.setNombreEscuela("UPIICSA");
 		escuela.setDireccion("AV. UPIICSA No 2.");
 		escuela.setEspecialidad("SISTEMAS");

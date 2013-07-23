@@ -35,9 +35,6 @@ public class EscuelaDomain {
 	public long getIdEscuela() {
 		return idEscuela;
 	}
-	public void setIdEscuela(long idEscuela) {
-		this.idEscuela = idEscuela;
-	}
 	
 	public String getNombreEscuela() {
 		return nombreEscuela;
